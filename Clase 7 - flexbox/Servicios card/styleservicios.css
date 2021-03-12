@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-servicios {
+    width: 100vw;
+    height: 100vh;  
+}
+
+.ubic-centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header  {
+    width: 100%;
+    height: 30%;    
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 42px;
+    padding: 15px;
+}
+
+main {
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-icono-info {
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+}
+
+.lupa {
+    width:  50px;
+    height: 50px;
+    background-color:  #6875f5;
+    border-radius: 5px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+p {
+    color: #6b7280;
+    font-size: 14px;
+}
+

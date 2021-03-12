@@ -1,0 +1,27 @@
+
+.box-w {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: cadetblue;    
+    flex-grow: 1;
+    color: darkblue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-fg {
+    background-color: darkgray;
+    width: 250px;
+    height: 250px;
+}
+.cent-word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: darkblue;
+    font-size: 20px;   
+}

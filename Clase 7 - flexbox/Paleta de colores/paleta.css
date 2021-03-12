@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(229, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aviso-copied {
+    background-color: rgb(3, 2, 39);
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    width: 24%;
+    height: 7%;
+    
+}
+h2 {
+    font-size: 20px;
+}
+.paleta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 60%;
+    height: 270px;
+    padding-top: 10px;
+}
+.color  {
+    padding: 8px 4px 4px;
+    background-color: white;
+    width: 18%;
+    height: 240px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+    box-shadow: 5px 5px 39px 6px rgba(0,0,0,0.88);
+}
+.color-inside {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;      
+}
+.alignself {
+    align-self: flex-start;
+}
+.white {
+    background-color: whitesmoke;
+}
+.celeste {
+    background-color: turquoise;
+}
+.rosaviejo {
+    background-color: thistle;
+}
+.gris {
+    background-color: grey;
+}
+.fucsia {
+    background-color: indianred;
+}

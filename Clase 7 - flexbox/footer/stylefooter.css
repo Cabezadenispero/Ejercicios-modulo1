@@ -1,0 +1,101 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-footer {
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    border-top: 3px solid #394151;    
+}
+
+
+
+/* propiedad de ubicación de las cajas hijas*/
+
+.direction-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* declaración de las listas internas y logo */
+
+
+
+.list-container {
+    padding: 10px;
+    height: 80%;
+}
+
+.logo-box {    
+    width: 40%;
+    height: 40%;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;    
+    
+}
+
+.list-boxes {
+    width: 60%;
+    margin-top: 40px;
+    padding: 10px; 
+}
+
+h1 {
+    margin-top: 32px;
+    font-size: 25px;
+    margin-left: 10px;
+    align-self: flex-start;
+}
+
+h3 {
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: #394151;
+}
+
+li {
+    list-style: none;
+    font-size: 10px;
+    margin: 15px;
+    color: #9298A9;
+}
+
+
+
+
+/* declaración del footer */
+
+footer {
+    height: 10%;
+}
+
+h4 {
+    font-size: 12px;
+    color: #B4B4C2;
+    align-self: flex-start;
+}
+
+.privacy-security-box {
+    width: 40%;
+}
+
+.socialmedia-icons-box {
+    width: 10%;
+}

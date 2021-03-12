@@ -1,0 +1,52 @@
+
+.container  {    
+    width: 100vw;
+    height: 100vh ;
+    background-color: rgb(209, 208, 208);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dado {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.self {
+    align-self: center;
+}
+
+.d-dot-site {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    
+}
+
+.punto {
+    display: block;
+    border-radius: 50%;
+    background-color: black;
+    height: 25px;
+    width: 25px;
+}
+
+.d-p-centro {
+    width: 100%;
+    height: 34%;   
+}
