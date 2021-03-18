@@ -1,0 +1,51 @@
+.container {
+    width: 630px;
+    height: 450px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: inline-block;  
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.one {
+    background-color: darkgoldenrod; 
+    position: absolute;
+    z-index: 1;
+
+}
+
+.two {
+    background-color: darkcyan;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px; 
+    
+    
+
+}
+
+.three {
+    background-color: darkolivegreen;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px ;
+    z-index: 1;
+}
+
+.four {
+    background-color: darkred;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 300px ;
+}
