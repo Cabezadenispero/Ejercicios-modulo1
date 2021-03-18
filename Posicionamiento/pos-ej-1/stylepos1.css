@@ -22,7 +22,6 @@
     background-color: darkgoldenrod; 
     position: absolute;
     z-index: 1;
-
 }
 
 .two {
@@ -30,9 +29,6 @@
     position: absolute;
     margin-top: 100px;
     margin-left: 100px; 
-    
-    
-
 }
 
 .three {
