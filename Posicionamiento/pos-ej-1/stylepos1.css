@@ -29,6 +29,7 @@
     position: absolute;
     margin-top: 100px;
     margin-left: 100px; 
+    z-index: 0;
 }
 
 .three {
@@ -44,4 +45,5 @@
     position: absolute;
     margin-top: 300px;
     margin-left: 300px ;
+    z-index: 0;
 }
