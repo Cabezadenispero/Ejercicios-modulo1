@@ -1,0 +1,23 @@
+.box-size {
+    width: 200px;
+    height: 50%;
+    border: 1px solid black;
+    background-color: cadetblue;    
+    color: darkblue;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-small {
+    height: 50%;
+    flex-grow: 1 ;
+    border: 1px solid black;
+    background-color: cadetblue;    
+    color: darkblue;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
