@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 340px;
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.container {
+    background-color: rgb(173, 172, 172);
+    height:100px;
+    width:100px;
+    position: relative;
+}
+
+.red-square {
+    background-color:red;
+    height:60px;
+    width: 60px;
+}
+
+.green-square {
+    background-color: green;
+    height:30px;
+    width: 30px;
+}
+
+.g1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.r2 {
+    position: absolute;
+    margin-top:40px;
+}
+
+.g2 {
+    position: absolute;
+    margin-top:0px;
+    margin-left: 70px;
+}
+
+.r3 {
+    position: absolute;
+    margin-top:40px;
+    margin-left: 40px;
+}
+.g3 {
+    position: absolute;
+    margin-top:0px;
+    margin-left: 70px;
+}
+
+.r4 {
+    position: absolute;
+    margin-top:40px;
+}
+.g4 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.r5 {
+    position: absolute;
+    margin-left:40px;
+}
+.g5 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.r6 {
+    position: absolute;
+    margin-left:40px;
+    margin-top: 40px;
+}
+.g6 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.r7 {
+    position: absolute;
+    margin-left:20px;
+}
+.g7 {
+    position: absolute;
+    margin-top: 70px;
+}
+
+.r8 {
+    position: absolute;
+    margin-left:20px;
+    margin-top: 40px;
+    z-index: 0;
+}
+.g8 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+.r9 {
+    position: absolute;
+    margin-left:20px;
+    margin-top: 20px;
+    z-index: 0;
+}
+.g9 {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 35px;
+}
