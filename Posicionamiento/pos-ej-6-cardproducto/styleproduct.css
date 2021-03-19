@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EAEBEC;
+}
+
+.card-container {
+    height: 620px;
+    width: 410px ;
+    background-color:white;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.badge {
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 15px ;
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+}
+
+.envio_gratis {
+    width: 95px;
+    height: 35px;
+    background-color:#3277F6;    
+    top: 15px;
+}
+
+.descuento{
+    width: 45px;
+    height: 35px;
+    background-color: #377D22;
+    top: 55px;
+}
+
+.fa-heart {
+    font-size: 25px ;
+    position: absolute;
+    top: 15px;
+    left: 360px;
+    z-index: 3;
+    color: #EA3B33;
+    
+}
+
+.product-img {
+    height:60%;  
+    position: relative;
+    top: 80px;
+}
+.maneki {
+    height: 100%;
+    width: 100%;
+}
+.product-text {
+    position: absolute;
+    top: 500px;
+    left:41px;
+}
+
+.product-price {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 40px;
+    color: #71CCAF;
+    font-weight: lighter;
+
+}
+h5 {
+    font-size: 15px ;
+    color: grey ;
+    font-weight: lighter;
+}
+
