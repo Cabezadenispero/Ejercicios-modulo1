@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 180px;
+    width:650px;
+    background-color:#7DDAC6;
+}
+
+.barra-iconos {
+    height:100px;
+    width:650px;
+    background-color: #4988C1;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size:55px;
+}
+
+.color-ic-celeste {    
+    color: #8DB7D9;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+.iconos-box-and-numbers {
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.notif-numero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color: white;
+    background-color:red;
+    border-radius:25px;
+    height:28px;
+    width:28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+    right:15px;
+
+}
+
+.color-ic-blanco {
+    color: white;
+    position: relative;
+    top: 30px;
+}
