@@ -33,97 +33,98 @@ body {
 }
 
 .g1 {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 70px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+    
 }
 
 .r2 {
-    position: absolute;
-    margin-top:40px;
+    position: relative;
+    top:40px;
 }
 
 .g2 {
-    position: absolute;
-    margin-top:0px;
-    margin-left: 70px;
+    position: relative;
+    bottom:70px;
+    left: 70px;
 }
 
 .r3 {
-    position: absolute;
-    margin-top:40px;
-    margin-left: 40px;
+    position: relative;
+    top:40px;
+    left: 40px;
 }
 .g3 {
-    position: absolute;
-    margin-top:0px;
-    margin-left: 70px;
+    position: relative;
+    bottom: 70px;
+    left: 70px;
 }
 
 .r4 {
     position: absolute;
-    margin-top:40px;
+    top:40px;
 }
 .g4 {
     position: absolute;
     z-index: 1;
-    margin-left: 30px;
-    margin-top: 70px;
+    left: 30px;
+    top: 70px;
 }
 
 .r5 {
     position: absolute;
-    margin-left:40px;
+    left:40px;
 }
 .g5 {
     position: absolute;
     z-index: 1;
-    margin-left: 40px;
-    margin-top: 30px;
+    left: 40px;
+    top: 30px;
 }
 
 .r6 {
     position: absolute;
-    margin-left:40px;
-    margin-top: 40px;
+    left:40px;
+    top: 40px;
 }
 .g6 {
     position: absolute;
     z-index: 1;
-    margin-left: 40px;
-    margin-top: 40px;
+    left: 40px;
+    top: 40px;
 }
 
 .r7 {
     position: absolute;
-    margin-left:20px;
+    left:20px;
 }
 .g7 {
     position: absolute;
-    margin-top: 70px;
+    top: 70px;
 }
 
 .r8 {
     position: absolute;
-    margin-left:20px;
-    margin-top: 40px;
+    left:20px;
+    top: 40px;
     z-index: 0;
 }
 .g8 {
     position: absolute;
     z-index: 1;
-    margin-left: 35px;
-    margin-top: 70px;
+    left: 35px;
+    top: 70px;
 }
 
 .r9 {
     position: absolute;
-    margin-left:20px;
-    margin-top: 20px;
+    left:20px;
+    top: 20px;
     z-index: 0;
 }
 .g9 {
     position: absolute;
-    margin-left: 35px;
-    margin-top: 35px;
+    left: 35px;
+    top: 35px;
 }
