@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.usuario-container {
+    height: 380px;
+    width: 335px;
+    border-radius:10px;
+    background-color: #c0bfbf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.usuario-foto_perfil {
+    height:220px;
+    width: 220px;
+    border-radius:50%;    
+    overflow: hidden;
+    position: absolute;
+    top:22px;
+    left:55px ;
+}
+
+.foto {
+    width:220px;
+}
+
+.usuario-bandera {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 200px;
+    left: 200px;   
+}
+
+.bandera {
+    width: 100%;
+    height:100%;
+}
+
+pre {
+    right:50px;
+    top: 270px;
+    position: relative;
+}
