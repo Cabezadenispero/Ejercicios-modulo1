@@ -1,0 +1,31 @@
+
+
+
+.ejercicio-1 p:nth-child(4n) {
+    color: red;
+}
+
+.ejercicio-2 ul li:nth-child(odd) {
+    color: red;
+}
+
+.ejercicio-3 ul li:nth-child(even) {
+    color: red;
+}
+
+.ejercicio-4 ul li:nth-child(2n+4) {
+    color: red;
+}
+
+.ejercicio-5 p:nth-child(1n+2) {
+    color: red;
+}
+
+.ejercicio-6 a:nth-of-type(odd) {
+    color: red;
+}
+
+.ejercicio-7 a~a {
+    color: red;
+
+}
