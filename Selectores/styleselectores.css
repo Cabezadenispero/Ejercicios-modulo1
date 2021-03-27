@@ -130,11 +130,11 @@ input {
     color: red;
 }
 
-.ejercicio-9>ul>li>ul {
+.ejercicio-9 ul li ul {
     color: red;
 }
 
-.ejercicio-10 p:nth-child(2) {
+.ejercicio-10 p~* {
     color: red;
 }
 
@@ -166,4 +166,5 @@ input {
 
 .ejercicio-15 ul li[data-descuento]{color: red;}
 
-.ejercicio-16 ul li:not([data-categoria="electronica"]){color: red;
+.ejercicio-16 ul li:not([data-categoria="electronica"]){
+  color: red;}
