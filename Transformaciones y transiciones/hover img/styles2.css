@@ -10,12 +10,13 @@ body {
     background-color: rgb(173, 190, 146);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .fcenter {
     display: flex;
     justify-content:center;
-    align-items:center;
-    
+    align-items:center;    
 }
+
 .box_ppal {
     width: 600px;
     height: 600px;
@@ -46,7 +47,7 @@ img {
 
 .box_ppal:hover .box_capa {
     animation-name: foo;
-    animation-duration: 1s;
+    animation-duration: 5s;
     z-index: 5;
 }
 
@@ -83,7 +84,6 @@ button {
     animation-duration: 1s;
     z-index: 6;
     animation-delay: 5s;
-
 }
 
 @keyframes foo {
